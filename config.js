@@ -5,8 +5,8 @@
 
 	//List of modules to load
 	var modules = [
-					'module01.js',
-					'module02.js'
+			'module01.js',
+			'module02.js'
 	];
 
 	//Method to load modules
