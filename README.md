@@ -6,8 +6,8 @@ A modular approach to modular javascript techniques.
 
 <pre>
 <code lang="javascript">
-<script src="config.js"></script>
-<script src="init.js"></script>
+<script type="text/javascript" src="config.js"></script>
+<script type="text/javascript" src="init.js"></script>
 </code>
 </pre>
 
