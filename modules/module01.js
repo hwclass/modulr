@@ -1,6 +1,8 @@
-var s, 
+'use strict';
+
+var s,
 Module1 = {
-	
+
 	settings: {
 		numOfDivisions: 1,
 		div1: $('#test1Div')
