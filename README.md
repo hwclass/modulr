@@ -2,25 +2,12 @@
 A very simple modular approach.
 
 ### usage
-1 - Include config.js into the main html file (here is default.html). config.js has the modules to be loaded in the main file by including them with script tags.
+1 - Include modulr-0.1.0.js file into the main html file (here is default.html).
 
 ```html
-<script type="text/javascript" src="config.js"></script>
-```
+<script type="text/javascript" src="modulr-0.1.0.js"></script>
 
-2 - Include init.js into the main html file. init.js is the initialization file that make modules work by their init methods.
-
-```html
-<script type="text/javascript" src="init.js"></script>
-```
-
-<pre>
-	<code lang="javascript">
-		Module1.init();
-	</code>
-</pre>
-
-3 - Create module files in modules directory. They are called by their file name.
+2 - Create module files in modules directory. They are called by their file name.
 
 <pre>
 	<code lang="javascript">
