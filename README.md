@@ -15,7 +15,7 @@ A very basic modular approach to modular javascript techniques.
 ```
 
 <pre>
-	<code lang=""javascript>
+	<code lang="javascript">
 		Module1.init();
 	</code>
 </pre>
