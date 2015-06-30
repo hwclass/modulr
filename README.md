@@ -27,31 +27,37 @@ A very basic modular approach to modular javascript techniques.
 		var s,
 		Module1 = {
 
+			//The module-specific configurations
 			settings: {
 				numOfDivisions: 1,
 				div1: $('#test1Div')
 			},
 
+			//The module initialization method to start itself
 			init: function() {
 				s = this.settings;
 				this.bindUIActions();
 				this.bindDefaultSettings();
 			},
 
+			//The method to set some eventful bindings
 			bindUIActions : function() {
 				s.div1.on('click', function() {
 					alert('clicked div number 1');
 				});
 			},
 
+			//The method to set some default settings like style declerations
 			bindDefaultSettings: function() {
 				s.div1.css('cursor','pointer');
 			},
 
+			//One of some custom methods : createMoreDivs
 			createMoreDivs: function() {
 				//create more divisions...
 			},
 
+			//One of some custom methods : getTheNumberOfDivs
 			getTheNumberOfDivs: function() {
 				return this.numOfDivisions();
 			}
