@@ -1,6 +1,11 @@
 'use strict';
 
 var s,
+/**
+* Module1() is a module object literal
+*
+* @noparam
+*/
 Module1 = {
 
 	settings: {
