@@ -1,5 +1,5 @@
 ## modulr
-A very basic modular approach to modular javascript techniques.
+A very simple modular approach.
 
 ### usage
 1 - Include config.js into the main html file (here is default.html). config.js has the modules to be loaded in the main file by including them with script tags.
