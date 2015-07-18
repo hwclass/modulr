@@ -1,0 +1,33 @@
+{
+  "name": "modulr",
+  "version": "0.0.1",
+  "description": "A very simple modular approach",
+  "main": "modulr-0.1.0.js",
+  "dependencies": {
+    "http-server": "^0.8.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hwclass/modulr.git"
+  },
+  "keywords": [
+    "modulr",
+    "module",
+    "modules",
+    "javascript",
+    "js",
+    "library"
+  ],
+  "author": "hwclass",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hwclass/modulr/issues"
+  },
+  "homepage": "https://github.com/hwclass/modulr"
+}

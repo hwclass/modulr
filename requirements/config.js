@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = (function() {
+var config = (function() {
 
 	return {
 		//Pyhsical modules path
@@ -8,8 +8,8 @@ module.exports = (function() {
 
 		//List of modules to load
 		modules : [
-				'module01.js',
-				'module02.js'
+			'module01.js',
+			'module02.js'
 		]
 	}
 

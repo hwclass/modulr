@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = (function() {
+var init = (function() {
 
 	return function () {
 

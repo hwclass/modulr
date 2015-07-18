@@ -1,7 +1,3 @@
-var config = require('requirements/config');
-var app = require('requirements/app');
-var init = require('requirements/init');
-
 'use strict';
 
 /*!
@@ -15,7 +11,7 @@ var init = require('requirements/init');
 *
 *
 * Launch  : July 2013
-* Version : 0.1.0
+* Version : 0.0.1
 * Released: N/A
 *
 *
