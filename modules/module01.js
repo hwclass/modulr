@@ -1,40 +1,44 @@
 'use strict';
 
-var s,
-/**
-* Module1() is a module object literal
-*
-* @noparam
-*/
-Module1 = {
+(function () {
 
-	settings: {
-		numOfDivisions: 1,
-		div1: $('#test1Div')
-	},
+	var s,
+	/**
+	* Module1() is a module object literal
+	*
+	* @noparam
+	*/
+	Module1 = {
 
-	init: function() {
-		s = this.settings;
-		this.bindUIActions();
-		this.bindDefaultSettings();
-	},
+		settings: {
+			numOfDivisions: 1,
+			div1: $('#test1Div')
+		},
 
-	bindUIActions : function() {
-		s.div1.on('click', function() {
-			alert('clicked div number 1');
-		});
-	},
+		init: function() {
+			s = this.settings;
+			this.bindUIActions();
+			this.bindDefaultSettings();
+		},
 
-	bindDefaultSettings: function() {
-		s.div1.css('cursor','pointer');
-	},
+		bindUIActions : function() {
+			s.div1.on('click', function() {
+				alert('clicked div number 1');
+			});
+		},
 
-	createMoreDivs: function() {
-		//create more divisions...
-	},
+		bindDefaultSettings: function() {
+			s.div1.css('cursor','pointer');
+		},
 
-	getTheNumberOfDivs: function() {
-		return this.numOfDivisions();
+		createMoreDivs: function() {
+			//create more divisions...
+		},
+
+		getTheNumberOfDivs: function() {
+			return this.numOfDivisions();
+		}
+
 	}
 
-}
+})();

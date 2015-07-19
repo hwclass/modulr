@@ -24,8 +24,10 @@ var modulr = (function () {
   *
   * @noparam
   */
-  var loadModules = function () {
-    app.loadModules(config.modulesPath, config.modules);
+  var loadModules = function (callback) {
+    app.loadModules(config.modulesPath, config.modules, function () {
+      callback();
+    });
   }
 
   /**
@@ -37,9 +39,19 @@ var modulr = (function () {
     init();
   }
 
+  /**
+  * start() invokes loadModules and init method to start all modules
+  *
+  * @noparam
+  */
+  var start = function () {
+    loadModules(function () {
+      init();
+    });
+  }
+
   return {
-    load : loadModules,
-    init : initModules
+    start : start
   }
 
 }());
