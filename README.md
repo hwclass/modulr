@@ -51,3 +51,19 @@ A very simple modular approach.
 
   }
 </pre>
+
+3 - At last, the views are initialized in init.js
+
+<pre>
+  'use strict';
+
+  var init = (function() {
+
+    //Module initialization for division 2A
+    Module1.init();
+
+    //Module initialization for division 2B
+    Module2.init();
+
+  });
+</pre>
