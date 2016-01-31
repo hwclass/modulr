@@ -5,7 +5,9 @@ A very simple modular approach.
 1 - Include modulr-0.1.0.js file into the main html file (here is default.html).
 
 <pre>
-<script type="text/javascript" src="modulr-0.1.0.js"></script>
+  <code>
+  &lt;script src="modulr-0.1.0.js"&gt;&lt;/script&gt;
+  </code>
 </pre>
 
 2 - Create module files in modules directory. They are called by their file name.
